@@ -17,8 +17,8 @@
             {% if post.author.username == user.username %}
                 <div class = "entry">            <div class="lines"></div>
 {{ post.text }}
-                    <a href='{% url 'post_edit' post.pk %}'><span class="edit_button">edit</span></a>
-                	<a href='{% url 'post_delete' post.pk %}'><span class="close_button">x</span></a></div>
+                    <span class="edit_button"><a href='{% url 'post_edit' post.pk %}'>edit</a></span>          
+                    <span class="close_button"><a href='{% url 'post_delete' post.pk %}'>x</a></span></div>
             {% endif %}
             {% endfor %}	
         <div id="input_row">

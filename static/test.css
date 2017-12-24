@@ -1,5 +1,5 @@
 body{
-	font-family: courier, monospace;
+	font-family: cursive;
 	    background-image: url(./dark.png);
 
     background-attachment: fixed;
@@ -17,6 +17,7 @@ header{
     position: relative;
     padding: 1%;
     background-image: url(./lines.png);
+    text-align:center;
 }
 
 .container,
@@ -89,18 +90,17 @@ header{
 	font-size: 28px;'
     font-style: italic;
     font-weight: bold;
-	font-family: courier, monospace;
+	font-family: cursive;
     }
 
 .close_button{
 	text-align: center;
 	line-height: 24px;
-	margin: 0px 5px 2px 0px;
+	margin: 2px 5px 0px 0px;
 	width : 25px;
 	height: 24px;
-    border-radius: 5px;
-    border: 1px solid black;
-	background-color: #dd2e29;
+    border-radius: 15px;
+	background-color: #cccccc;
 	display: block;
 	float: right;
 	color:black;
@@ -108,14 +108,14 @@ header{
 
 }
 .edit_button{
+	padding: 0px 4px;
 	text-align: center;
 	line-height: 24px;
-	margin: 0px 5px 2px 0px;
+	margin: 2px 5px 0px 0px;
 	width : auto;
 	height: 24px;
-    border-radius: 5px;
-    border: 1px solid black;
-	background-color: #ddffff;
+    border-radius: 15px;
+	background-color: #cccccc;
 	display: block;
 	float: right;
 	color:black;
@@ -130,19 +130,23 @@ header{
 }
 
 .close_button:hover{
-		background-color: red;
+		background-color: #aaaaaa;
+}
 
+.edit_button:hover{
+	background-color: #aaaaaa;
 }
 
 
 div.entry{
 	background-image: url(./paper_fibers.png);
 	color: #000066;
-	font-family: courier, monospace;
+	font-family: cursive;
 	margin: 0px 0px;
 	padding: 0px 0px 0px 0px;
   border-bottom: 1px dotted #ccc;	
 	overflow: hidden;
+	line-height: 28px;
 }
 
 div.entry .lines {
@@ -156,7 +160,8 @@ div.entry .lines {
 }
 
 div.entry:hover{
-	background-color: #cccccc;
+	background-image: none;
+	background-color: #dddddd;
 }
 
 div.entry.ticked:hover{
@@ -170,13 +175,39 @@ input{
 
 }
 
+.navleft{
+	padding: 6px;
+			background-color: #dddddd;
+
+}
+
+header a{
+		border-radius: 43%;
+
+			padding: 10px;
+		background-color: #dddddd;
+
+
+}
+
+header a:hover{
+	background-color: #aaaaaa;
+}
+
+
+ a{
+	color: black;
+	text-decoration: none;
+}
+
 #input_row button{
 	margin-left: 0px;
-	background-color: #8899DD;
-	padding: 3px 5px 3px 3px;
+	background-color: #dddddd;
+	padding: 5px 5px 5px 5px;
 	display: inline-block;
-	border-radius: 2px;
-	border: 2px solid black;
+	border-radius: 20px;
+	border: 0px;
+	font-family: cursive;
 }
 
 #input_row button:hover {
@@ -187,7 +218,11 @@ input{
 
 
 #input_row .dark_button:hover{
-	background-color: #556699;
+	background-color: #aaaaaa;
 }
 
+input{
+	border: 1px solid black;
+	border-radius: 6px;
+}
 
