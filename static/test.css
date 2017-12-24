@@ -208,18 +208,13 @@ header a:hover{
 	border-radius: 20px;
 	border: 0px;
 	font-family: cursive;
+	color: #000000;
 }
 
 #input_row button:hover {
 	background-color: #6677AA;
 }
 
-
-
-
-#input_row .dark_button:hover{
-	background-color: #aaaaaa;
-}
 
 input{
 	border: 1px solid black;
