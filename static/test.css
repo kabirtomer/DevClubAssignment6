@@ -172,6 +172,7 @@ input{
 	margin-right: 15px; 
 	width: 50%;
 	display:inline-block;
+	font-family: cursive;
 
 }
 
@@ -200,7 +201,7 @@ header a:hover{
 	text-decoration: none;
 }
 
-#input_row button{
+button{
 	margin-left: 0px;
 	background-color: #dddddd;
 	padding: 5px 5px 5px 5px;
@@ -211,7 +212,7 @@ header a:hover{
 	color: #000000;
 }
 
-#input_row button:hover {
+button:hover {
 	background-color: #6677AA;
 }
 
