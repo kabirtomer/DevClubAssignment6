@@ -5,7 +5,10 @@
     {% if post.author.username == user.username %}
     <h1>Edit post</h1>
     <form action="" method="post">{% csrf_token %}
-      {{ form.as_p }}
+            
+            <input id = 'input' name='text'>
+
+            
     <input type="submit" value="Update" />
 </form>
     {% else %}
