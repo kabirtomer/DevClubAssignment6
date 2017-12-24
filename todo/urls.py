@@ -8,3 +8,4 @@ urlpatterns = [
     path('post/<int:pk>/delete', DeleteView.as_view(), name='post_delete'),
     path('accounts/signup', SignUpView.as_view(), name='signup'),
 ]
+	

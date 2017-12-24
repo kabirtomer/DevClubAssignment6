@@ -1,5 +1,8 @@
 body{
-	font-family: cursive;
+
+
+    font-family: 'Delius Swash Caps', cursive;
+
 	    background-image: url(./dark.png);
 
     background-attachment: fixed;
@@ -11,7 +14,7 @@ header{
 .container{
 	width : 60%;
 	margin: auto;
-	min-width: 220px;
+	min-width: 300px;
     background-color: #dddddd;
     border: 1px solid #aaaaaa;
     position: relative;
@@ -90,7 +93,10 @@ header{
 	font-size: 28px;'
     font-style: italic;
     font-weight: bold;
-	font-family: cursive;
+
+
+    font-family: 'Delius Swash Caps', cursive;
+
     }
 
 .close_button{
@@ -141,7 +147,10 @@ header{
 div.entry{
 	background-image: url(./paper_fibers.png);
 	color: #000066;
-	font-family: cursive;
+
+
+    font-family: 'Delius Swash Caps', cursive;
+
 	margin: 0px 0px;
 	padding: 0px 0px 0px 0px;
   border-bottom: 1px dotted #ccc;	
@@ -172,7 +181,10 @@ input{
 	margin-right: 15px; 
 	width: 50%;
 	display:inline-block;
-	font-family: cursive;
+
+
+    font-family: 'Delius Swash Caps', cursive;
+
 
 }
 
@@ -187,12 +199,16 @@ header a{
 
 			padding: 10px;
 		background-color: #dddddd;
+			background-image: url(./textured_paper.png);
+
 
 
 }
 
 header a:hover{
 	background-color: #aaaaaa;
+		background-image: none;
+
 }
 
 
@@ -208,12 +224,18 @@ button{
 	display: inline-block;
 	border-radius: 20px;
 	border: 0px;
-	font-family: cursive;
+
+	background-image: url(./textured_paper.png);
+
+    font-family: 'Delius Swash Caps', cursive;
+
 	color: #000000;
 }
 
 button:hover {
 	background-color: #6677AA;
+	background-image: none;
+
 }
 
 
